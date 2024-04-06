@@ -7,6 +7,7 @@ import purpleBlob from "../../assets/blob purple.png";
 import whiteBlob from "../../assets/blob white.png";
 import arrow from "../../assets/Arrow Right.svg";
 import Mobile from "../../assets/mobile.svg";
+import { Link } from "react-router-dom";
 
 const move = keyframes`
 0% { transform: translateY(-5px)  }
@@ -199,7 +200,10 @@ const HeroSection = () => {
           Instant Fashion Try-On: Anywhere, Anytime! Discover the perfect fit with our virtual dressing room experience.
           </SubText>
           <CTA>
+            <button> <Link to="/getdemo">
             Get Demo Now &nbsp;
+            </Link></button>
+            
             <img src={arrow} alt="cta" width="100" height="100" />
           </CTA>
         </Lb>

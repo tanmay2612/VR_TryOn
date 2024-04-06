@@ -1,6 +1,7 @@
 import { GlobalStyle } from "./globalStyles";
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import VirtualTryOnComponent from "./components/getdemo/demo";
 
 const Home = lazy(() => import("./Pages/Home"));
 const Header = lazy(() => import("./components/Header/index"));
@@ -18,7 +19,7 @@ function App() {
 
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route path ="/" element={<Home/>} />
+          <Route path ="/getdemo" element={<VirtualTryOnComponent/>} />
           <Route path ="/" element={<Home/>} />
         </Routes>
         {/* Other routes */}
