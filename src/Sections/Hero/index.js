@@ -200,9 +200,9 @@ const HeroSection = () => {
           Instant Fashion Try-On: Anywhere, Anytime! Discover the perfect fit with our virtual dressing room experience.
           </SubText>
           <CTA>
-            <button> <Link to="/getdemo">
+            <Link to="/getdemo">
             Get Demo Now &nbsp;
-            </Link></button>
+            </Link>
             
             <img src={arrow} alt="cta" width="100" height="100" />
           </CTA>
