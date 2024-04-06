@@ -62,12 +62,12 @@ button[type="submit"]:hover {
 
 /* demo.css */
 
-body {
+/* body {
   font-family: sans-serif;
   background-color: #e5e5f5; /* Light purple background */
-  color: #454a55; /* Darker text for contrast */
+  /*color: #454a55; /* Darker text for contrast 
   text-align: center;
-}
+} */
 
 .upload-container {
   display: flex;
@@ -81,11 +81,11 @@ body {
   box-shadow:2px 5px 10px black;
 }
 
-h1 {
+/* h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #a5a5ec; /* Accent color for heading */
-}
+  color: #a5a5ec; 
+} */
 
 label {
   margin-bottom: 0.5rem;

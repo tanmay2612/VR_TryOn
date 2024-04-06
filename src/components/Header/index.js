@@ -243,15 +243,18 @@ const Header = () => {
           <Link to="/">Home</Link>
         </Button> */}
         <Link to="/"> Home </Link>
-        <a href="#about" onClick={(e) => scrollUp("about", e)}>
+        {/* <a href="#about" onClick={(e) => scrollUp("about", e)}>
           About Us
-        </a>
-        <a href="#Library" onClick={(e) => scrollUp("Library", e)}>
+        </a> */}
+         <Link to="/about"> About Us </Link>
+        {/* <a href="#Library" onClick={(e) => scrollUp("Library", e)}>
           Library
-        </a>
-        <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
+        </a> */}
+        <Link to="/library"> Library </Link>
+        {/* <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
           <Button>Contact Us</Button>
-        </a>
+        </a> */}
+        <Link to="/contact"> Contact us </Link>
         <Button>
           <Link to="/login">Login</Link>
         </Button>
@@ -260,21 +263,42 @@ const Header = () => {
         <span></span>
       </HamburgerBtn>
       <MobileMenu clicked={+click}>
-        <Link to="/">
-          <button>Home </button>{" "}
-        </Link>
-        <a href="#about" onClick={(e) => handleClick("about", e)}>
+        {/* <Button>
+          <Link to="/">Home</Link>
+        </Button> */}
+        <Link to="/"> Home </Link>
+        {/* <a href="#about" onClick={(e) => scrollUp("about", e)}>
           About Us
-        </a>
-        <a href="#Library" onClick={(e) => handleClick("Library", e)}>
+        </a> */}
+         <Link to="/about"> About Us </Link>
+        {/* <a href="#Library" onClick={(e) => scrollUp("Library", e)}>
           Library
-        </a>
-        <a href="#contact" onClick={(e) => handleClick("contact", e)}>
+        </a> */}
+        <Link to="/library"> Library </Link>
+        {/* <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
           <Button>Contact Us</Button>
-        </a>
-        <Link to="/login">
-          <Button>Login</Button>
-        </Link>
+        </a> */}
+        {/* <Button>
+          <Link to="/">Home</Link>
+        </Button> */}
+        <Link to="/"> Home </Link>
+        {/* <a href="#about" onClick={(e) => scrollUp("about", e)}>
+          About Us
+        </a> */}
+         <Link to="/about"> About Us </Link>
+        {/* <a href="#Library" onClick={(e) => scrollUp("Library", e)}>
+          Library
+        </a> */}
+        <Link to="/contact"> Contact us </Link>
+        {/* <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
+          <Button>Contact Us</Button>
+        </a> */}
+        <Button>
+          <Link to="/login">Login</Link>
+        </Button>
+        <Button>
+          <Link to="/login">Login</Link>
+        </Button>
       </MobileMenu>
     </Headers>
   );
