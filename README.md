@@ -8,25 +8,27 @@ The Hackofiesta Virtual Try-On App is designed to provide users with the ability
 The Hackofiesta Virtual Try-On App revolutionizes your shopping experience by allowing you to virtually try on various clothing items using cutting-edge technology powered by the RapidAPI. This README provides comprehensive instructions on setting up and utilizing the app.
 
 
-![alt text](<"C:\Users\adity\Downloads\WhatsApp Image 2024-04-07 at 05.24.20_1afae585.jpg">)
+![alt text](https://r2.easyimg.io/2jzr3khfs/screenshot_2024-04-07_052148.png)
 
 
 
 
-![alt text](<WhatsApp Image 2024-04-07 at 05.24.19_c105fb77.jpg>)
+![alt text](https://r2.easyimg.io/ut6pbnm0c/screenshot_2024-04-07_052409.png)
 
 
 
 
-![alt text](<WhatsApp Image 2024-04-07 at 05.23.13_db1c6a03.jpg>)
+![alt text](https://r2.easyimg.io/bwgc2zwxo/screenshot_2024-04-07_052305.png)
 
 
-![alt text](<WhatsApp Image 2024-04-07 at 05.25.06_fcc0facf.jpg>)
+![alt text](https://r2.easyimg.io/46vgd90df/screenshot_2024-04-07_052457.png)
+
+![alt text](https://r2.easyimg.io/4g7muo4qi/screenshot_2024-04-07_052532.png)
 
 
 
 
-![alt text](<WhatsApp Image 2024-04-07 at 05.25.38_b566fa93.jpg>)
+
 
 
 
