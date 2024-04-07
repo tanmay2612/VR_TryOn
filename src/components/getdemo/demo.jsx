@@ -9,7 +9,7 @@ const VirtualTryOnComponent = () => {
   const [loading, setLoading] = useState(false);
   const [personImageUrl, setPersonImageUrl] = useState(null);
   const [clothImageUrl, setclothImageUrl] = useState(null);
-  
+
 
   const handlePersonImageChange = (event) => {
     const pfile = event.target.files[0];
@@ -22,7 +22,7 @@ const VirtualTryOnComponent = () => {
     setClothImage(cfile);
     setclothImageUrl(URL.createObjectURL(cfile)); // Set the cloth image URL
   };
-  
+
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -57,30 +57,35 @@ const VirtualTryOnComponent = () => {
     console.log(finalImage);
   }, [finalImage]);
 
+
+
   return (
     <div className="upload-container">
       <h1>Virtual Try-On</h1>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="x">
           <label>Upload Person Image:</label>
           <input type="file" onChange={handlePersonImageChange} />
-          {personImageUrl && <img src={personImageUrl} alt="Person Image" />} 
+          {personImageUrl && <img src={personImageUrl} alt="Person Image" className="x1" />}
         </div>
-        <div>
+        <div className="x">
           <label>Upload Cloth Image:</label>
           <input type="file" onChange={handleClothImageChange} />
-          {clothImageUrl && <img src={clothImageUrl} alt="cloth image" /> }
+          {clothImageUrl && <img src={clothImageUrl} alt="cloth image" className="x1" />}
         </div>
         <button type="submit" disabled={!personImage || !clothImage || loading}>
           {loading ? "Loading..." : "Try On"}
         </button>
       </form>
+      <div>
       {finalImage && (
         <div>
           <h2>Final Image:</h2>
           <img src={finalImage} alt="Final Image" />
         </div>
       )}
+      </div>
+      
     </div>
   );
 };
