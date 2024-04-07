@@ -275,27 +275,12 @@ const Header = () => {
           Library
         </a> */}
         <Link to="/library"> Library </Link>
-        {/* <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
-          <Button>Contact Us</Button>
-        </a> */}
-        {/* <Button>
-          <Link to="/">Home</Link>
-        </Button> */}
-        <Link to="/"> Home </Link>
-        {/* <a href="#about" onClick={(e) => scrollUp("about", e)}>
-          About Us
-        </a> */}
-         <Link to="/about"> About Us </Link>
-        {/* <a href="#Library" onClick={(e) => scrollUp("Library", e)}>
-          Library
-        </a> */}
+        
         <Link to="/contact"> Contact us </Link>
         {/* <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
           <Button>Contact Us</Button>
         </a> */}
-        <Button>
-          <Link to="/login">Login</Link>
-        </Button>
+        
         <Button>
           <Link to="/login">Login</Link>
         </Button>
