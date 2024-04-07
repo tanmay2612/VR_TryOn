@@ -35,9 +35,8 @@ const VirtualTryOnComponent = () => {
       method: "POST",
       url: "https://virtual-try-on2.p.rapidapi.com/clothes-virtual-tryon",
       headers: {
-        'X-RapidAPI-Key': '5a6be78dc2msh1accf98c62ec5bbp1caedbjsnaf2019967a90',
-        'X-RapidAPI-Host': 'virtual-try-on2.p.rapidapi.com',
-        "Content-Type": "multipart/form-data",
+        'X-RapidAPI-Key': '6417850984msh14a747bf84bfdbep17d8e9jsn4f3ee7163ba0',
+        'X-RapidAPI-Host': 'virtual-try-on2.p.rapidapi.com'
       },
       data: formData,
     };
