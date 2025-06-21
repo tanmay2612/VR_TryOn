@@ -159,6 +159,6 @@ while cap.isOpened():
     cv2.imshow('Virtual Try-On', image)
     if cv2.waitKey(5) & 0xFF == 27:  # Press 'Esc' to exit
         break
-
+# execution part
 cap.release()
 cv2.destroyAllWindows()
