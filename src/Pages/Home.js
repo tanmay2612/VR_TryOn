@@ -1,6 +1,8 @@
 //This is home page, It will contains all the sections require in this page.
 
 //Import all the require sections here
+
+// This is for the Home section 
 import HeroSection from "../Sections/Hero/index";
 import About from "../Sections/About/index";
 
@@ -16,6 +18,7 @@ const Container = styled.div`
   align-items: center;
   /* position: relative; */
 `;
+
 
 const Home = () => {
   return (
