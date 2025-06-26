@@ -160,5 +160,7 @@ while cap.isOpened():
     if cv2.waitKey(5) & 0xFF == 27:  # Press 'Esc' to exit
         break
 # execution part
+# execution flow 
+# executing the function
 cap.release()
 cv2.destroyAllWindows()
