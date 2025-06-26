@@ -13,18 +13,15 @@ The Hackofiesta Virtual Try-On App revolutionizes your shopping experience by al
 
 
 
-![alt text](https://ibb.co/XBKFWYf)
+![alt text](https://i.imghippo.com/files/yi6413rc.png)
 
 
 
 
-![alt text](https://ibb.co/N2krcVH3)
+![alt text](https://i.imghippo.com/files/PyT4038gYw.png)
 
 
-![alt text](https://ibb.co/pBJmY5yW)
-
-![alt text](https://r2.easyimg.io/4g7muo4qi/screenshot_2024-04-07_052532.png)
-
+![alt text](https://www.imghippo.com/i/Qc1059YM.png)
 
 
 
